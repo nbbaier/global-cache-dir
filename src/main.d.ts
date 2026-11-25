@@ -2,6 +2,8 @@
  * Get the global cache directory.
  * Ensures the directory exists.
  * The cache directory location is OS-specific.
+ * On macOS and Linux, the `XDG_CACHE_HOME` environment variable is respected
+ * when set.
  *
  * @example
  * ```js
